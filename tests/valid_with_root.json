@@ -1,0 +1,73 @@
+{
+    "lineIdx": -1,
+    "tag": null,
+    "duration": null,
+    "actions": [],
+    "children": [{
+        "lineIdx": 0,
+        "tag": "mark0",
+        "duration": null,
+        "actions": [],
+        "children": [{
+            "lineIdx": 1,
+            "tag": "mark1",
+            "duration": 300,
+            "actions": [{
+                "name": "rotate",
+                "params": [
+                    "45"
+                ]
+            }],
+            "children": [{
+                "lineIdx": 2,
+                "tag": null,
+                "duration": 1000,
+                "actions": [{
+                    "name": "scale",
+                    "params": [
+                        "2"
+                    ]
+                }],
+                "children": [{
+                    "lineIdx": 3,
+                    "tag": null,
+                    "duration": 500,
+                    "actions": [{
+                        "name": "translateX",
+                        "params": [
+                            "0", "-1000"
+                        ]
+                    }],
+                    "children": []
+                }]
+            }, {
+                "lineIdx": 4,
+                "tag": null,
+                "duration": 1000,
+                "actions": [{
+                    "name": "translateY",
+                    "params": [
+                        "100"
+                    ]
+                }],
+                "children": []
+            }]
+        }, {
+            "lineIdx": 5,
+            "tag": null,
+            "duration": null,
+            "actions": [{
+                "name": "color",
+                "params": [
+                    "blue"
+                ]
+            }, {
+                "name": "fade",
+                "params": [
+                    "0.5"
+                ]
+            }],
+            "children": []
+        }]
+    }]
+}

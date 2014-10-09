@@ -1,0 +1,59 @@
+{
+    "tag": null,
+    "duration": null,
+    "actions": [],
+    "children": [{
+        "tag": "mark0",
+        "duration": 300,
+        "actions": [{
+            "name": "rotate",
+            "params": [45]
+        }],
+        "children": [{
+            "tag": null,
+            "duration": 1000,
+            "actions": [{
+                "name": "scale",
+                "params": [2]
+            }],
+            "children": [{
+                "tag": "mark1",
+                "duration": 500,
+                "actions": [{
+                    "name": "translatex",
+                    "params": [0, -1000]
+                }],
+                "children": []
+            }]
+        }, {
+            "tag": null,
+            "duration": 1000,
+            "actions": [{
+                "name": "translatey",
+                "params": [100, -1000]
+            }],
+            "children": []
+        }, {
+            "tag": "mark2",
+            "duration": null,
+            "actions": [{
+                "name": "fade",
+                "params": [0.3]
+            }],
+            "children": []
+        }]
+    }, {
+        "tag": "mark3",
+        "duration": null,
+        "actions": [],
+        "children": []
+    }, {
+        "tag": null,
+        "duration": 200,
+        "actions": [{
+            "name": "rotate",
+            "params": [-15]
+        }],
+        "children": []
+    }]
+}

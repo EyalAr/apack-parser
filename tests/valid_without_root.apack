@@ -1,0 +1,17 @@
+rotate 45 @300ms (mark0)
+    scale 2 @1s #comment
+        translateX 0 -1000 @0.5s (mark1)
+    translateY 100 -1000 @1s
+    # comment
+    fade 0.3 (mark2)
+
+# comment
+(mark3)
+    color blue red, fade 0.5 @800ms
+
+# comment
+# comment
+# comment
+
+rotate -15 @200ms
+    rotate 15 @100

@@ -1,0 +1,40 @@
+{
+  "name": "apack-parser",
+  "version": "0.0.0",
+  "description": "Parse Animations Pack Syntax",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "decree": "0.0.3"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.1",
+    "istanbul": "^0.3.2",
+    "mocha": "^1.20.1",
+    "mocha-lcov-reporter": "0.0.1",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive --reporter spec tests",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- --recursive --reporter spec tests",
+    "travis": "./node_modules/.bin/istanbul cover --report lcovonly ./node_modules/.bin/_mocha -- --recursive --reporter spec --bail tests && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EyalAr/apack-parser.git"
+  },
+  "keywords": [
+    "animation",
+    "pack",
+    "syntax",
+    "parser"
+  ],
+  "author": "Eyal Arubas <eyalarubas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EyalAr/apack-parser/issues"
+  },
+  "homepage": "https://github.com/EyalAr/apack-parser"
+}
